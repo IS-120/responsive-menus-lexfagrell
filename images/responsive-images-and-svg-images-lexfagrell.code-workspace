@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../Downloads/New Folder With Items"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "responsive-images-and-svg-images-lexfagrell"
+  }
+}

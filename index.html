@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>fagrell web page</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alexa Fagrell's first web site for Intro to Web Development
+" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+  <link rel="manifest" href="./images/site.webmanifest" />
+  <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5" />
+  <link rel="shortcut icon" href="images/favicon.ico" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="msapplication-config" content="./images/browserconfig.xml" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+
+<body>
+  <section class="hero">
+    <picture>
+      <source media="(min-width: 768px)" srcset="images/hero768.jpg" />
+      <source media="(min-width: 1920px)" srcset="images/hero1920.jpg" />
+      <source media="(min-width: 380px)" srcset="images/hero380.jpg" />
+      <img class="pot" src="images/hero768.jpg" alt="Pot and hand holding cooking utensils with spices" />
+    </picture>
+    <div class="hero-text">
+      <h1 class="hero">Lexy's Lunches</h1>
+      <p class="subtitle">Recipes, Grocery Lists & More</p>
+    </div>
+  </section>
+  <header class="max">
+    <nav>
+      <div class="menu-icon">
+        <svg viewbox="0 0 60 60" width="40px" height="40px">
+          <line x1="5%" y1="50%" x2="95%" y2="50%" />
+          <line x1="5%" y1="50%" x2="95%" y2="50%" />
+        </svg>
+      </div>
+      <ul class="menu">
+        <li><a class="page">Home</a></li>
+        <li><a class="page" href="about/">About</a></li>
+        <li><a class="page" href="contact/">Contact </a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="cards">
+    <div class="group">
+      <a class="card">
+        <img src="images/brussel-480.jpg" loading="lazy" alt="Air Friend Brussel Sprouts" width="480" height="480" />
+        <p class=" inner-text">Brussel Sprouts</p>
+      </a>
+      <a class="card">
+        <img src="images/pizza-card-480_.jpg" loading="lazy" alt="Pepperoni Pizza" width="480" height="480" />
+        <p class="inner-text">Pepperoni Pizza</p>
+      </a>
+    </div>
+    <div class="group">
+      <a class="card">
+        <img src="images/noodles-card-480.jpg" loading="lazy" alt="Noodles" width="480" height="480" />
+        <p class="inner-text">Noodles</p>
+      </a>
+      <a class="card">
+        <img src="images/salad-card-480.jpg" loading="lazy" alt="Salad" width="480" height="480" />
+        <p class="inner-text">Salad</p>
+      </a>
+    </div>
+  </section>
+  <main>
+    <h2 class="lunch">LUNCH OF THE DAY</h2>
+    <article class="panel">
+      <h2>Orange Chicken with Jasmine Rice</h2>
+      <img class="left" src="images/orangechicken.jpg" alt="Plate of Orange Chicken with Rice" width="900"
+        height="675" />
+      <p>
+        Buy orange chicken package from Walmart and 90 second ready rice. Then
+        put the orange chicken in an air fryer for 10 minutes at 400 degrees.
+        Heat up the packet of sauce. When the air fryer is done take the
+        orange chicken out and add sauce. Heat the rice in microwave for 90
+        seconds. Serve and enjoy!
+      </p>
+      <p>
+        <em> Add red crushed peppers for extra spice! </em>
+      </p>
+      <a class="button">Click Me!</a>
+    </article>
+    <article class="panel">
+      <h2>Chik Fil A Nuggets</h2>
+      <img class="left" src="images/chicken900.jpg" alt="Chik fil a Chicken" width="900" height="675" />
+      <p>
+        Buy chik fila package from Walmart and Chikfila sauce. Then put the
+        nuggets in an air fryer for 10 minutes at 350 degrees. When the air
+        fryer is done take the nuggets and add sauce. Serve and enjoy!
+      </p>
+      <p>
+        <em>
+          Chikfila sauce can be purchased at most grocery stores, or a
+          substitute sauce can be used.
+        </em>
+      </p>
+      <a class="button">Click Me!</a>
+    </article>
+  </main>
+  <footer>
+    <aside>
+      <p>Aside</p>
+    </aside>
+  </footer>
+</body>
+
+</html>
