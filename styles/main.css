@@ -51,12 +51,14 @@ h3 {
   padding: 1.5rem 3rem;
 }
 .menu-icon svg {
-  width: 80px;
+  width: 100%;
+  position: fixed;
   height: auto;
+  z-index: 1
 }
 
 .menu-icon line {
-  stroke: var(--color-highlight));
+  stroke: var(--color-text));
   stroke-width: 6px;
   stroke-linecap: round;
   transform-origin: center;
@@ -73,6 +75,21 @@ h3 {
 
 .menu-icon svg:hover line {
   stroke: var(--color-highlight-light);
+}
+header ul {
+  position: absolute;
+  opacity: 0;
+  transform: translateX(-100vw);
+  transition: transform 300ms ease;
+}
+
+.close ul {
+  opacity: 1;
+  transform: translateX(0);
+  position: fixed;
+  inset: 0 0 0 0;
+  flex-direction: column;
+  background-color: var(--color-highlight);
 }
 .close line {
   stroke: #556b2f;
