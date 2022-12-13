@@ -51,14 +51,15 @@ h3 {
   padding: 1.5rem 3rem;
 }
 .menu-icon svg {
-  width: 100%;
+  width: 8%;
   position: fixed;
   height: auto;
   z-index: 1;
+  left: 3%;
 }
 
 .menu-icon line {
-  stroke: var(--color-text);
+  stroke: #556b2f;
   stroke-width: 6px;
   stroke-linecap: round;
   transform-origin: center;
@@ -74,7 +75,7 @@ h3 {
 }
 
 .menu-icon svg:hover line {
-  stroke: var(--color-highlight-light);
+  stroke: #556b2f;
 }
 header ul {
   position: absolute;
@@ -84,15 +85,18 @@ header ul {
 }
 
 .close ul {
+  padding-top: 12%;
+  height: 100%;
   opacity: 1;
   transform: translateX(0);
+  transition-duration: 0.5s;
   position: fixed;
   inset: 0 0 0 0;
   flex-direction: column;
   background-color: var(--color-highlight);
 }
 .close line {
-  stroke: #556b2f;
+  stroke: var(--color-highlight-light);
 }
 
 .close line:first-child {
@@ -163,13 +167,15 @@ a[href]:hover {
 }
 
 .hero h1 {
+  margin: 0;
+  margin-bottom: 15px;
   font-size: clamp(10rem, -0.875rem + 8.333333vw, 20rem);
   text-shadow: 2px 2px #000;
   font-weight: bold;
   font-family: "Bebas Neue";
-  margin-top: 299px;
 }
 .hero-text {
+  width: 100%
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -180,13 +186,12 @@ a[href]:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 .title {
-  height: 20%;
-  font-size: 12vw !important;
+  font-size: 15vw !important;
   margin: 0 !important;
-  padding: 0;
+  padding: 20;
 }
 .subtitle {
-  font-size: 2vw !important;
+  font-size: 5vw !important;
 }
 
 .card {
@@ -274,5 +279,14 @@ a[href]:hover {
   }
   .group {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 500px) {
+  .title {
+    font-size: 25vw;
+  }
+  .subtitle {
+    font-size: 20vw;
   }
 }
