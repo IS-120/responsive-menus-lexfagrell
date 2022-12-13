@@ -54,11 +54,11 @@ h3 {
   width: 100%;
   position: fixed;
   height: auto;
-  z-index: 1
+  z-index: 1;
 }
 
 .menu-icon line {
-  stroke: var(--color-text));
+  stroke: var(--color-text);
   stroke-width: 6px;
   stroke-linecap: round;
   transform-origin: center;
