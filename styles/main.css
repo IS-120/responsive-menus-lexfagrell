@@ -175,7 +175,7 @@ a[href]:hover {
   font-family: "Bebas Neue";
 }
 .hero-text {
-  width: 100%
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
